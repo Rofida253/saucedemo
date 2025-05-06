@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="4" parallel="classes" name="Test1(failed)">
+    <classes>
+      <class name="automation.recapet.testLogin">
+        <methods>
+          <include name="invaledLogin"/>
+          <include name="screenshootOnfailur"/>
+          <include name="setupdriver"/>
+          <include name="stopdriver"/>
+        </methods>
+      </class> <!-- automation.recapet.testLogin -->
+      <class name="automation.recapet.testCart">
+        <methods>
+          <include name="productAdded"/>
+          <include name="checkCartCount"/>
+          <include name="sorting"/>
+          <include name="navigateToCart"/>
+          <include name="screenshootOnfailur"/>
+          <include name="clickOnCheckOut"/>
+          <include name="bothProductAppearCorrect"/>
+          <include name="setupdriver"/>
+          <include name="stopdriver"/>
+        </methods>
+      </class> <!-- automation.recapet.testCart -->
+      <class name="automation.recapet.inventoryTest">
+        <methods>
+          <include name="productAdded"/>
+          <include name="screenshootOnfailur"/>
+          <include name="sorting"/>
+          <include name="setupdriver"/>
+          <include name="stopdriver"/>
+        </methods>
+      </class> <!-- automation.recapet.inventoryTest -->
+      <class name="automation.recapet.TestcheckOutFlow">
+        <methods>
+          <include name="completeOrder"/>
+          <include name="screenshootOnfailur"/>
+          <include name="productAdded"/>
+          <include name="fillInformation"/>
+          <include name="navigateToCart"/>
+          <include name="scrollDown"/>
+          <include name="setupdriver"/>
+          <include name="stopdriver"/>
+          <include name="ConfirmationTheOrder"/>
+          <include name="sorting"/>
+        </methods>
+      </class> <!-- automation.recapet.TestcheckOutFlow -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
