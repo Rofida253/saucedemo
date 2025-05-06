@@ -19,3 +19,6 @@ Folder Structure Overview
 └── reports/                        HTML reports generated
 
 Tools & Libraries Used
+ • Selenium WebDriver – for browser automation
+ • TestNG – test framework
+ • WebDriverManager – automatic driver management
