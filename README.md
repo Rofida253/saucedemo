@@ -19,9 +19,9 @@
 └── reports/                        HTML reports generated
 
 3-Tools & Libraries Used
- • Selenium WebDriver – for browser automation
- • TestNG – test framework
- • WebDriverManager – automatic driver management
+ - Selenium WebDriver – for browser automation
+-TestNG – test framework
+-WebDriverManager – automatic driver management
 
  Screenshots on Test Failure
 
