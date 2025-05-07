@@ -19,7 +19,7 @@
 └── reports/                        HTML reports generated
 
 3-Tools & Libraries Used
- - Selenium WebDriver  for browser automation
+-Selenium WebDriver  for browser automation
  - Maven  to build automation that manage project
 -TestNG for test framework for manage test execution and generate reports 
 
